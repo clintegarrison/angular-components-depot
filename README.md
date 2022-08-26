@@ -6,4 +6,4 @@ This project is an example of how to share Angular components between applicaito
 
 1. `ng new angular-components-depot` creates the Angular project
 2. `npx -p @storybook/cli sb init --type angular` creates the Storybook instance
-3. `ng generate library angular-components-depot-library` creates the Storybook instance
+3. `ng generate library angular-components-depot-library` creates the library

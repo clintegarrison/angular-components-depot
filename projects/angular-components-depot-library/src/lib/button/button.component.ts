@@ -12,12 +12,13 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   </button>`,
   styleUrls: ['./button.css'],
 })
+
 export default class ButtonComponent {
   /**
    * Is this the principal call to action on the page?
    */
   @Input()
-  primary = false;
+  primary: boolean = false;
 
   /**
    * What background color to use

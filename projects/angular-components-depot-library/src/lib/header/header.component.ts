@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { User } from 'src/stories/User';
+import { User } from '../User';
 
 @Component({
   selector: 'storybook-header',
@@ -47,9 +47,8 @@ import { User } from 'src/stories/User';
           ></storybook-button>
           <storybook-button
             *ngIf="!user"
-            primary
             size="small"
-            primary="true"
+            [primary]="true"
             class="margin-left"
             (onClick)="onCreateAccount.emit($event)"
             label="Sign up"
@@ -60,7 +59,8 @@ import { User } from 'src/stories/User';
   </header>`,
   styleUrls: ['./header.css'],
 })
-export default class HeaderComponent {
+
+export default class HeaderComponentDefault {
   @Input()
   user: User | null = null;
 

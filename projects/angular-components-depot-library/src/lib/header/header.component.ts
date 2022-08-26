@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { User } from './User';
+import { User } from 'src/stories/User';
 
 @Component({
   selector: 'storybook-header',

@@ -2,9 +2,9 @@ import { moduleMetadata, Story, Meta } from '@storybook/angular';
 import { within, userEvent } from '@storybook/testing-library';
 import { CommonModule } from '@angular/common';
 
-import Button from './button.component';
-import Header from './header.component';
-import Page from './page.component';
+import Button from 'projects/angular-components-depot-library/src/lib/button/button.component';
+import Header from 'projects/angular-components-depot-library/src/lib/header/header.component';
+import Page from 'projects/angular-components-depot-library/src/lib/page/page.component';
 
 export default {
   title: 'Example/Page',

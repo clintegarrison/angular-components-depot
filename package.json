@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "npm run storybook",
-    "build": "npm run build-storybook",
+    "build": "npm install && npm run build-storybook",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "docs:json": "compodoc -p ./tsconfig.json -e json -d .",

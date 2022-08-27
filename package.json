@@ -4,11 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "npm run storybook",
-    "build": "npm install && npm run build-storybook",
+    "build": "npm run build-storybook",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
-    "storybook": "npm run docs:json && start-storybook -p 6006",
+    "storybook": "start-storybook -p 6006",
     "build-storybook": "npm run docs:json && build-storybook"
   },
   "private": true,

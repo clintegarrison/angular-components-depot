@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "",
-    "build": "build-storybook && start-storybook -p 6006",
+    "build": "npm i -g @storybook/cli && build-storybook && start-storybook -p 6006",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "docs:json": "compodoc -p ./tsconfig.json -e json -d ."

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "start-storybook -p 6006",
+    "start": "npm install && start-storybook -p 6006",
     "build": "build-storybook",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
